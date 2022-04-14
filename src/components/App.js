@@ -37,7 +37,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/add" component={AddContact} />
-          <Route path="/" component={ContactList} />
+          <Route path="/" exact component={ContactList} />
         </Routes>
         {/* <AddContact addContactHandler={addContactHandler} /> */}
         {/* <ContactList contacts={contacts} getContactId={removeContactHandler} /> */}
